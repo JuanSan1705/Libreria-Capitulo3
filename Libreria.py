@@ -21,7 +21,7 @@ def Canicas(Matriz, X, Click, cont):
                 Sum = Sum + mult
             mat.append(Sum)
         if Click == cont:
-            return print(mat)
+            return mat
         else:
             X = mat
             cont += 1
@@ -52,7 +52,7 @@ def RendijaProbabilistico(Matriz, X, Click, cont):
                 ax.bar(xx, mat)
                 plt.xlabel('Estado')
                 plt.ylabel('Porcetaje')
-                plt.title('EvoluciÃ³n dinÃ¡mica del sistema despues de '+ str(Click) + ' Clicks de tiempo')
+                plt.title('Evolucion dinamica Clasico del sistema despues de '+ str(Click) + ' Clicks de tiempo')
                 plt.show()
                 return mat
             else:
@@ -61,12 +61,8 @@ def RendijaProbabilistico(Matriz, X, Click, cont):
                 RendijaProbabilistico(Matriz, X, Click, cont)
 
 
-
-def Cambio(Matriz, X, Click, cont):
-     n = Matriz
-     DobleRendija(Matriz, X, Click, cont, n)
-
-def DobleRendija(Matriz, X, Click, cont, n):
+def DobleRendija(Matriz, X, Click, cont):
+    n = Matriz
     if cont == Click:
         S = Op.multiplicacionMatrizVector(n, X)
         Na = []
@@ -82,10 +78,10 @@ def DobleRendija(Matriz, X, Click, cont, n):
         ax.bar(xx, MATRIX)
         plt.xlabel('Estado')
         plt.ylabel('Porcetaje')
-        plt.title('Evolucion dinamica del sistema despues de '+ str(Click) + ' Clicks de tiempo')
+        plt.title('Evolucion dinamica Cuantico del sistema despues de '+ str(Click) + ' Clicks de tiempo')
         plt.show()
-        return 
+        return S
     else:
         n = Op.multiplicacionMatrizMatriz(n, Matriz)
         cont += 1
-        DobleRendija(Matriz, X, Click, cont, n)
+        DobleRendija(Matriz, X, Click, cont)
