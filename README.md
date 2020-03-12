@@ -60,10 +60,10 @@ En este experimento vamos a utilizar un laser que arroja punto de luz, reflejand
 
 # Presentado por:
 
-Juan Pablo Sánchez Suárez\n
+Juan Pablo Sánchez Suárez
 
-Brayan Alexis Jiménez Moya \n
+Brayan Alexis Jiménez Moya
 
-Santiago Agustin Laiton Cubides\n
+Santiago Agustin Laiton Cubides
 
 
