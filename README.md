@@ -58,16 +58,6 @@ En este experimento vamos a utilizar un laser que arroja punto de luz, reflejand
 
 ![](imagenes/grafo_de_2_rendijas.jpeg)
 
-## SIMULACION 3 RENDIJAS
-
-## GRAFO
-
-![](imagenes/grafo_de_3_rendijas.jpeg)
-
-## USO 
-
-Se enciende el laser y se dezplazan las ventanas por medio de la corrediza. 
-
 # Presentado por:
 Juan Pablo Sánchez Suárez 
 Brayan Alexis Jiménez Moya 
