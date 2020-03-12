@@ -59,8 +59,11 @@ En este experimento vamos a utilizar un laser que arroja punto de luz, reflejand
 ![](imagenes/grafo_de_2_rendijas.jpeg)
 
 # Presentado por:
+
 Juan Pablo Sánchez Suárez 
+
 Brayan Alexis Jiménez Moya 
+
 Santiago Agustin Laiton Cubides
 
 
